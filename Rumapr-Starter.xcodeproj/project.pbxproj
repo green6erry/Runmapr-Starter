@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		07C6499820B46EF10082AEFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C6499720B46EF10082AEFC /* AppDelegate.swift */; };
-		07C6499A20B46EF10082AEFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C6499920B46EF10082AEFC /* ViewController.swift */; };
+		07C6499A20B46EF10082AEFC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C6499920B46EF10082AEFC /* MainViewController.swift */; };
 		07C6499D20B46EF10082AEFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C6499B20B46EF10082AEFC /* Main.storyboard */; };
 		07C6499F20B46EF40082AEFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C6499E20B46EF40082AEFC /* Assets.xcassets */; };
 		07C649A220B46EF40082AEFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C649A020B46EF40082AEFC /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		07C6499420B46EF10082AEFC /* Rumapr-Starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rumapr-Starter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C6499720B46EF10082AEFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07C6499920B46EF10082AEFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07C6499920B46EF10082AEFC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		07C6499C20B46EF10082AEFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07C6499E20B46EF40082AEFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07C649A120B46EF40082AEFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,6 +39,8 @@
 			isa = PBXGroup;
 			children = (
 				07C6499620B46EF10082AEFC /* Rumapr-Starter */,
+				07C649A020B46EF40082AEFC /* LaunchScreen.storyboard */,
+				07C649A320B46EF40082AEFC /* Info.plist */,
 				07C6499520B46EF10082AEFC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,13 +57,43 @@
 			isa = PBXGroup;
 			children = (
 				07C6499720B46EF10082AEFC /* AppDelegate.swift */,
-				07C6499920B46EF10082AEFC /* ViewController.swift */,
-				07C6499B20B46EF10082AEFC /* Main.storyboard */,
-				07C6499E20B46EF40082AEFC /* Assets.xcassets */,
-				07C649A020B46EF40082AEFC /* LaunchScreen.storyboard */,
-				07C649A320B46EF40082AEFC /* Info.plist */,
+				07C649AC20B46FB90082AEFC /* Visuals */,
+				07C649AB20B46FB20082AEFC /* Controllers */,
+				07C649AA20B46FAB0082AEFC /* Services */,
+				07C649A920B46F970082AEFC /* Models */,
 			);
 			path = "Rumapr-Starter";
+			sourceTree = "<group>";
+		};
+		07C649A920B46F970082AEFC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		07C649AA20B46FAB0082AEFC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		07C649AB20B46FB20082AEFC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				07C6499920B46EF10082AEFC /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		07C649AC20B46FB90082AEFC /* Visuals */ = {
+			isa = PBXGroup;
+			children = (
+				07C6499E20B46EF40082AEFC /* Assets.xcassets */,
+				07C6499B20B46EF10082AEFC /* Main.storyboard */,
+			);
+			path = Visuals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07C6499A20B46EF10082AEFC /* ViewController.swift in Sources */,
+				07C6499A20B46EF10082AEFC /* MainViewController.swift in Sources */,
 				07C6499820B46EF10082AEFC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
