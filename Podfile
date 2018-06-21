@@ -7,7 +7,6 @@ target 'Rumapr-Starter' do
   # Pods for Rumapr-Starter
   pod 'Firebase/Core'
   pod 'Firebase/Database'
-  pod 'SwiftyJSON'
 
 
 end
